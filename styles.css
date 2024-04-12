@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1434648957308-5e6a859697e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+
+}
+
+
+.chat-container {
+    width: 70%;
+   
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.messages-general {
+    padding: 20px;
+    overflow-y: auto;
+    height: 500px;
+    
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #f0f0f0;
+    color: #fff;
+}
+
+.users-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    gap: 10px;
+}
+
+.user-chat {
+    flex-basis: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-info {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.user-info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.send-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+   
+}
+
+.user-red {
+    background-color: #4c589c;
+  
+}
+
+.user-green {
+    background-color: #55ac4a;
+   
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.user-red .message {
+    background-color: #a8d9ff;
+    width: 60%;
+    margin-left: auto;
+    
+}
+
+.user-green .message {
+    background-color: #c562e6;
+}
+.btn{
+    background-color: #ccc;
+}
+.users-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    gap: 10px;
+}
+
+.user-chat {
+    flex-basis: 48%;
+    padding: 10px;}

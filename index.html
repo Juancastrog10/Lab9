@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages-general" id="messages-general"></div>
+        <div class="users-container">
+            <div class="user-chat user-red">
+                <div class="user-info">
+                    <img src="https://i.pinimg.com/736x/70/4b/4b/704b4bf205b933957a141e54eeceaa00.jpg" alt="Usuario 1">
+                </div>
+                <div class="input-container">
+                    <input type="text" class="message-input user-red" data-user="user-red" placeholder="usuario 1 ..." style="background-color: white;">
+                    <button class="send-btn user-red" id="send-btn-user-red" style="background-color: #acb6ff;">Enviar</button>
+                </div>
+                
+            </div>
+            <div class="user-chat user-green">
+                <div class="user-info">
+                    <img src="https://i.pinimg.com/564x/8c/db/ca/8cdbca9a8705badbf7c7937c553e53c1.jpg" alt="Usuario 2">
+                </div>
+                <div class="input-container">
+                    
+                    <input type="text" class="message-input user-green" data-user="user-green" placeholder="usuario  2..." style="background-color: white;">
+                    <button class="send-btn user-green" id="send-btn-user-green" style="background-color: #469f38;">Enviar</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+
